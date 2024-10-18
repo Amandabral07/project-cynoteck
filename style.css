@@ -1,0 +1,375 @@
+/* 1- ABOUT PAGE */
+
+.about-heading h1{
+    text-align: center;
+    margin-top: 5vh;
+    /* margin-bottom: 15vh */
+}
+
+.about-heading .line{
+    height: 2px;
+    width: 150px;
+    background-color: yellow;
+    margin: auto;
+}
+
+
+.head-data .about-btn{
+    background: transparent;
+    border-radius: 5px;
+}
+
+
+.head-data .about-btn:hover{
+    background-color: rgb(255, 192, 0);
+    color: white;
+}
+
+ 
+.head-data .image1{
+    background-image: url(about.jpg);
+    height: 80vh;
+    width: 100%;
+    background-size: cover; 
+     background-position: center;
+     margin-top: -5vh;
+     margin-bottom: 4vh;
+    /* margin-left: 45vw ; */
+    /* border-radius: 50px; */
+    animation-name: animate;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.image1{
+    animation-name: animate;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.head-data{
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column-reverse;
+    /* justify-content: space-between;  */
+}
+
+.head-data p{
+    width: 100%;
+}
+
+@keyframes animate {
+    0%{
+        transform: translateY(0vh);
+    }
+
+    50%{
+        transform: translateY(-5vh);
+    }
+
+    100%{
+        transform: translateY(0vh);
+    }
+    
+}
+
+
+
+
+/* 2- Contact Page */
+.data{
+    background-image: url(alisha-limbu-2LxcsQVV_Vk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.data h1{
+    text-align: center;
+    /* border: 1px solid black; */
+    padding-bottom: 15vh;
+    color: white;
+}
+
+.data .box{
+    /* text-align: center; */
+    padding-left: 10vw;
+}
+
+.data input{
+    width: 300px;
+}
+.data textarea{
+    width: 300px;
+}
+
+.contact-btn{
+    border-radius: 5px;
+    background: transparent;
+    margin: 4px;
+    border: 1px solid white;
+}
+
+#contact-btn1:hover{
+    background-color: aqua;
+    /* color: white; */
+}
+
+#contact-btn2:hover{
+    background-color: rgb(255, 192, 0);
+    color: white;
+    /* color: white; */
+}
+
+
+
+
+/* 3- INDEX PAGE */
+#main{
+    background-image: url(pic.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+
+*{
+    margin: 0;
+    /* padding: 0; */
+    /* box-sizing: border-box; */
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    padding: 16px;
+    /* margin: auto; */
+    /* max-width: 1200px; */
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 28px;
+}
+
+.nav-list :hover{
+     background-color: rgb(255, 192, 0);
+     color: black;
+}
+
+.btn{
+    background: transparent;
+    padding: 12px 20px;
+    cursor: pointer;    
+    border-radius: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+    border: 2px solid white;
+    /* background-color: rgb(255, 192, 0); */
+}
+
+.btn:hover{
+    background-color: rgb(255, 192, 0);
+    color: black;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 80px;
+    color: white;
+}
+
+.main-content .intro-heading{
+    font-size: 50px;
+}
+
+.main-content .main-heading{
+    font-size: 110px;
+    margin-top: -20px;
+    
+}
+
+.main-content p{
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+.section-title h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10vh;
+}
+
+.section-title .line{
+    background-color: yellow;
+    width: 140px;
+    height: 4px;
+    margin: auto;
+}
+
+.service img{
+    height: 40vh; 
+    width: 25vw;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.3s ease;
+}
+
+.service img:hover{
+    transform: scale(1.05);
+}
+
+.services{
+    display: flex;
+    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 10vh;
+    padding-left: 5vw;
+    margin-top: 10vh;
+}
+
+.service{
+    gap: 16px;
+    /* border: 2px solid black; */
+    width: 30vw;
+}
+
+.service p{
+    width: 400px;
+}
+
+
+.banner{
+    background-image: url(banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: auto;
+    margin-bottom: 5vh;
+}
+
+.banner h1{
+    color: white;
+    padding-top: 25vh;
+    padding-left: 10vw;
+    font-size: 50px;
+}
+
+.banner .line2{
+    height: 2px;
+    width: 150px;
+    background-color: red;
+    margin-left: 25vw;
+}
+
+.banner p{
+    color: white;
+    width: 550px;
+    margin-left: 10vw;
+    margin-top: 2vh;
+
+}
+
+@media screen and (max-width:912px){
+
+    nav p{
+        text-align: center;
+    }
+    .nav-list{
+        flex-direction: column;
+        margin-top: 50px;
+        justify-content: center;
+        margin-right: 40vw;
+
+    }
+
+    .main-content{
+        margin-top:50px;
+    }
+
+    .main-content p{
+        margin-top: 2vh;
+        margin-bottom: 4vh;
+    }
+
+    .services{
+        display: flex;
+        flex-direction: column;
+        gap: 10vh;
+        /* border: 2px solid black; */
+        padding-right: 25vw;
+        padding-top: 2vh;
+
+    }
+
+    .service img{
+        width: 60vw;
+        height: 30vh;
+
+    }
+.services h3{
+    /* border: 1px solid black; */
+    margin-left: 18vw;
+    width: 20vw;
+    margin-bottom: 2vh;
+    }
+
+    .service p{
+        width: 62vw;
+        /* border: 1px soild black; */
+    }
+
+.banner p{
+    width: auto;
+    padding-right: 5vw;
+}
+
+.banner h1{
+    padding-right: 2vw;
+}
+
+/* ABOUT PAGE */
+.head-data{
+    /* display: flex; */
+    flex-direction: column-reverse;
+    margin-bottom: 10vh;
+}
+
+.head-data p{
+    width: 100%;
+}
+
+.head-data .image1{
+    width: 100%;
+}
+
+
+/* CONTACT PAGE */
+#phone{
+    color: white;
+}
+
+#message{
+    color: white;
+}
+#contact-btn1 , #contact-btn2{
+    color: white;
+}
+}
